@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form id="calculatorForm">
+       
+        <input type="text" id="val1" placeholder="Value 1" />
+        <input type="text" id="val2" placeholder="Value 2" />
+        <select name="operation" id="operation">
+          <option value="+">ADDITION</option>
+          <option value="-">SUBTRACTION</option>
+          <option value="*">MULTIPLICATION</option>
+          <option value="/">DIVISION</option>
+          <option value="%">MODULUS</option>
+        </select>
+        <button type="submit" id="submit">Submit</button>
+        
+      </form>
+      <h2 id="re">Result</h2>
+      <div id="show"></div>
+    
+    </div>
+
+    <script src="./cal.js"></script>
+  </body>
+</html>

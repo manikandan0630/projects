@@ -1,0 +1,83 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url("https://wallpaperboat.com/wp-content/uploads/2019/10/cool-website-background-01.jpg"); */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* background-color:  #ecf0f3; */
+    box-shadow: 1px 1px 22px 0px #56B4F4;
+    backdrop-filter: blur(30px);
+    padding: 40px;
+    border-radius: 20px;
+   border: 1px solid white;
+
+}form input{
+    margin: 10px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+   inset 5px 5px 12px rgba(0,0,0,.19);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    font-size: 20px;
+    color: #05080a;
+    font-weight: bold;
+}
+form input::placeholder{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+form select{
+    margin: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+   font-family: sans-serif;
+   font-weight: 600;
+}
+
+form button{
+   font-size: 13px;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin:10px auto ;
+    text-align: center;
+}
+form button:hover{
+    color: white;
+    background-color: #56B4F4;
+
+
+}
+#re{
+    margin:100px 0 0;
+}
+#show{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20pz 0;
+    box-shadow: inset -5px -5px 12px #ffffff,
+   inset 5px 5px 12px rgba(0,0,0,.19);
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    color: #05080a;
+    font-weight: bold;
+}
